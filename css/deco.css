@@ -96,3 +96,6 @@ li {
 .h3{
     font-family: "IBM Plex Sans Thai", sans-serif;
 }
+.photo {width: 230px; 
+transition: transform 0.3s ease;}
+.photo:hover {transform: scale(1.3); }
