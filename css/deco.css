@@ -1,5 +1,12 @@
 .body{
     text-align: center;
+    background-color: antiquewhite;
+}
+.title{
+    font-size: 30px;
+}
+.topic{
+font-size: 25px;
 }
 .boxes{
     display: flex;
@@ -21,4 +28,5 @@ background-color: rgb(250, 165, 165);
 width: 400px;
 height: auto;
 border-radius: 10px; 
+justify-content: center;
 }
