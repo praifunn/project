@@ -1,11 +1,16 @@
-.body{
+html{
+ scroll-behavior: smooth;
+}
+
+body{
     text-align: center;
-    background-color: rgb(247, 242, 235);
+    background-color: #ECC7C1;
+    scroll-behavior: smooth;
+    color: #290008;
 }
 .head{
     margin-bottom: 5px;
-    background-color: rgb(247, 242, 235);
-    color: rgb(4, 7, 153);
+    background-color: rgba(235, 225, 212, 0.39);
     display: flex;
     gap: 50px;
     position: sticky;
@@ -15,9 +20,13 @@
 }
 .title{
     font-size: 50px;
-}
+    height: 600px;
+    color: #290008;
+    }
+
 .topic{
     font-size: 35px;
+   
 }
 .boxes{
     display: flex;
@@ -26,23 +35,43 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: "Itim", cursive;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 25px;
 }
 .hobbies{
-    background-color:  rgb(255, 202, 242);
+    background-color:  rgb(250, 211, 220);
     width: 300px;
     height: 400px;
     border-radius: 10px; 
     align-items: center;
-    font-family: "Itim", cursive;
+    justify-content: center;
+    font-family: "IBM Plex Sans Thai", sans-serif;
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbies p {
+    margin: 0;
 }
 .box{
-background-color: rgb(250, 201, 201);
-width: 400px;
-height: auto;
+background-color: rgb(255, 255, 255);
+width: 700px;
+height: 300px;
+margin: auto;
 border-radius: 10px; 
 justify-content: center;
-
+}
+li {
+    text-align: left;
+    font-size: 25px;
+    justify-content: center;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img{
+    justify-content: center;
+    border-radius: 10px;
 }
